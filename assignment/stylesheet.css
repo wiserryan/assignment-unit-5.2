@@ -1,23 +1,23 @@
 html, 
+
 header{
-    background-color: dark grey;
-    color: light green;
     text-align: center;
+    font:
 }
-<main>
-background-color: dark grey;
-</main>
+
+main{
+background-color: light grey;
+margin: 0 auto;
+padding: 1em;  
+}
 
 body{
-    background-color: light grey;
-    margin: 0;
+    background-color: light gray;
+    background-image: url("record.png");
+    background-repeat: repeat;  
+    margin: 0 auto;
+    padding: 1em;
 }
-
-
-
-
-
-
 
 
 
@@ -26,17 +26,25 @@ Stylesheet:
 Create a `stylesheet.css` file and source it into the HTML file.
 Give the `header` a dark background color and choose a light  color for the text.
 Center the text in the `header`.
-
-my questions - 
-1. must be sourcing in my css to html wrong, as not reflecting online
-2. main? where and how to write this? 
-3. how to look up bakground image poperty?
-- Give the `main` a light grey background color. //// I made this the 'body'?
-- Look up the CSS `background-image` property to learn how to use the provided `record.png` as the background image on your page with a relative path.
-- Look up CSS `background-repeat` to learn how to fill the body of the page with a repeating image.
-- Look up CSS `margin` and `padding`. 
- Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.) 
-  - Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.)
+Give the `main` a light grey background color. //// I made this the 'body'?
+Look up the CSS `background-image` property to learn how to use the provided `record.png` as the background image on your page with a relative path.
+Look up CSS `background-repeat` to learn how to fill the body of the page with a repeating image.
+Look up CSS `margin` and `padding`. 
+Give the `body` a margin of `0`. (This removes the whitespace around the edges of the page.) 
+Give the `main` padding of `1em`. (Curious about `em`? Look up CSS units.)
 
 Here's an example of what the style could look like:
 <img src="./example.png">
+
+/*header{
+    text-align: left;
+    text-align: center;
+    background-color:black;
+    color: pink;
+    padding: 12px 32px;
+    font-weight: 300;
+
+    #content {
+    max-width: 700px;
+    margin: 0 auto; /* center horizontally */
+
